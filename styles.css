@@ -49,6 +49,18 @@ img {
   color: #fff;
 }
 
+.btn:hover {
+  background-color: hsl(322, 100%, 66%);
+  transition: 0.3s;
+  transform: scale(1.12);
+}
+
+.btn-primary:hover {
+  background-color: hsl(240, 84%, 10%);
+  transition: 0.3s;
+  transform: scale(1.12);
+}
+
 .flex {
   display: flex;
   align-items: center;
@@ -156,17 +168,32 @@ footer .circle {
   display: inline-flex;
 }
 
+footer .circle:hover {
+  color: hsl(322, 100%, 66%);
+  border: 1px solid hsl(322, 100%, 66%);
+  transition: 0.5s;
+  transform: scale(1.12);
+}
+
 footer p {
   text-align: right;
 }
 
-@media screen and (max-width: 768px) {
+div .attribution {
+  text-align: center;
+}
+
+@media screen  and (max-width: 768px) {
   body {
     text-align: center;
   }
 
   nav.flex {
     flex-direction: row;
+  }
+  
+  .logo {
+    margin-right: 60px;
   }
 
   .flex {
@@ -206,5 +233,5 @@ footer p {
   margin-left: 0;
   width: 100%;
  }
-
 }
+  
