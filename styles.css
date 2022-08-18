@@ -191,10 +191,6 @@ div .attribution {
   nav.flex {
     flex-direction: row;
   }
-  
-  .logo {
-    margin-right: 60px;
-  }
 
   .flex {
     flex-direction: column;
